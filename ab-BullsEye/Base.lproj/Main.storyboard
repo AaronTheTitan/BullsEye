@@ -90,12 +90,17 @@
                                 <state key="normal" title="Start Over">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="startOver" destination="vXZ-lx-hvc" eventType="touchUpInside" id="431-lX-rIo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="roundLabel" destination="KHM-mw-ylC" id="mGQ-NI-IZh"/>
+                        <outlet property="scoreLabel" destination="UH7-RN-KFA" id="eSB-LY-5uT"/>
                         <outlet property="slider" destination="jkN-4v-rtm" id="PMx-Sh-Jer"/>
                         <outlet property="targetLabel" destination="Wdh-tq-5Eq" id="vH9-hz-sjD"/>
                     </connections>
